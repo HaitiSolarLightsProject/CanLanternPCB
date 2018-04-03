@@ -1,4 +1,4 @@
-update=3/29/2018 1:32:32 PM
+update=Sunday, April 01, 2018 'PMt' 06:25:47 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,9 +56,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/KiCad/shurterpbsw_ng
-LibName31=C:/KiCad/mmbt2222l_npn_ng
-LibName32=C:/KiCad/mmbt2222l_npn_ng2
-LibName33=C:/KiCad/nx700_nmos_ng
-LibName34=C:/KiCad/bat54_schottky_ng
-LibName35=SolarCanLantern-cache
+[general]
+version=1
