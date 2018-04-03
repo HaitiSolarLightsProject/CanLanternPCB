@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:SolarLights-cache
+LIBS:SolarCanLantern-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -306,7 +306,7 @@ Wire Wire Line
 	6100 3150 5850 3150
 Text Notes 5650 2900 0    60   ~ 0
 Note: There are only 2 PWM capable pins so\nLEDS A and B are on PWM capable pins, while C is not
-Text Label 5450 3450 0    60   ~ 0
+Text Label 5450 3350 0    60   ~ 0
 VBatt_Divider
 Text Label 5800 3550 0    60   ~ 0
 Switch
@@ -440,10 +440,8 @@ Text Label 5450 1600 0    60   ~ 0
 ~SOLAR
 Wire Wire Line
 	5450 1600 5800 1600
-Text Label 5700 3350 0    60   ~ 0
+Text Label 5450 3450 0    60   ~ 0
 ~SOLAR
-Wire Wire Line
-	5700 3350 6100 3350
 $Comp
 L Battery_Cell BT1
 U 1 1 5AC3FE13
@@ -477,4 +475,6 @@ F 3 "" H 5900 4950 50  0001 C CNN
 	1    5900 4950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5450 3350 6100 3350
 $EndSCHEMATC
