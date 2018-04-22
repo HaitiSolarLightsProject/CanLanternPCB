@@ -1,4 +1,4 @@
-update=Sunday, April 01, 2018 'PMt' 06:25:47 PM
+update=Sunday, April 22, 2018 'PMt' 01:55:50 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=battery_management
+LibName31=74xgxx
+LibName32=Altera
+LibName33=analog_devices
+LibName34=dc-dc
+LibName35=stm32
