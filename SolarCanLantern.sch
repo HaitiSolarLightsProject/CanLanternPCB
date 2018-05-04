@@ -34,6 +34,7 @@ LIBS:Altera
 LIBS:analog_devices
 LIBS:dc-dc
 LIBS:stm32
+LIBS:switches
 LIBS:SolarCanLantern-cache
 EELAYER 25 0
 EELAYER END
@@ -222,21 +223,17 @@ Wire Wire Line
 	3600 3350 3550 3350
 Wire Wire Line
 	6100 3550 5800 3550
-Wire Wire Line
-	5800 3550 5800 3750
 $Comp
 L GND #PWR07
 U 1 1 5AC3EF40
-P 5800 4050
-F 0 "#PWR07" H 5800 3800 50  0001 C CNN
-F 1 "GND" H 5800 3900 50  0000 C CNN
-F 2 "" H 5800 4050 50  0001 C CNN
-F 3 "" H 5800 4050 50  0001 C CNN
-	1    5800 4050
+P 5800 4250
+F 0 "#PWR07" H 5800 4000 50  0001 C CNN
+F 1 "GND" H 5800 4100 50  0000 C CNN
+F 2 "" H 5800 4250 50  0001 C CNN
+F 3 "" H 5800 4250 50  0001 C CNN
+	1    5800 4250
 	1    0    0    -1  
 $EndComp
-Text Notes 5700 3950 0    60   ~ 0
-switch\n
 Text Label 5850 3150 0    60   ~ 0
 LEDA
 Text Label 5850 3250 0    60   ~ 0
@@ -453,4 +450,19 @@ Wire Wire Line
 Wire Wire Line
 	1950 5450 1950 5500
 Connection ~ 1950 5450
+$Comp
+L SW_Push SW1
+U 1 1 5AEB74F4
+P 5800 3900
+F 0 "SW1" H 5850 4000 50  0000 L CNN
+F 1 "SW_Push" H 5800 3840 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_SKHH_Angled" H 5800 4100 50  0001 C CNN
+F 3 "" H 5800 4100 50  0001 C CNN
+	1    5800 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 4250 5800 4100
+Wire Wire Line
+	5800 3550 5800 3700
 $EndSCHEMATC

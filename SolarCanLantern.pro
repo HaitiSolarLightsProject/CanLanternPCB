@@ -1,4 +1,4 @@
-update=Sunday, April 22, 2018 'PMt' 01:55:50 PM
+update=Thursday, May 03, 2018 'PMt' 01:42:10 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=Altera
 LibName33=analog_devices
 LibName34=dc-dc
 LibName35=stm32
+LibName36=switches
