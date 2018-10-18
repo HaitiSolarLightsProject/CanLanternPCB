@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SolarCanLantern-rescue)(type Legacy)(uri ${KIPRJMOD}/SolarCanLantern-rescue.lib)(options "")(descr ""))
+  (lib (name SolarCanLantern-cache)(type Legacy)(uri ${KIPRJMOD}/SolarCanLantern-cache.lib)(options "")(descr ""))
+  (lib (name SolarCanLantern)(type Legacy)(uri ${KIPRJMOD}/SolarCanLantern.lib)(options "")(descr ""))
+)
